@@ -20,6 +20,12 @@
     "grunt-contrib-uglify": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-json-minify": "^0.4.0",
-    "grunt-minjson": "^0.4.0"
+    "grunt-minjson": "^0.4.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-jslint": "^1.0.5",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uglifycss": "^1.0.6"
   }
 }
