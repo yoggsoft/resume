@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/*
+Utils assets (Variables & mixins only)
+*/
+@import 'utils/variables.scss';
+@import 'utils/mixins.scss';
+
+/*
+Front styles
+*/
+@import 'styles/styles.scss';
