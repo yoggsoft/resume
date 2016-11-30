@@ -23,7 +23,7 @@ i
 
 body
 {
-	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
 	font-family: $main-font;
 	font-weight: $font-weight;
 	line-height: 1.4;

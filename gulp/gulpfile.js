@@ -12,13 +12,13 @@ var paths = {
   }
 };
 
-gulp.task('stage:sass', require('./tasks/stage-sass')(paths));
-gulp.task('staging:js', require('./tasks/staging-js')(paths));
-
 gulp.task('watch:sass', () => {
   let options = {
     interval: 1000,
     debounceDelay: 1000
   };
+  gulp.watch(path.join(paths.sass, '*.scss'), options);
   gulp.watch(path.join(paths.sass, '**/*.scss'), options);
 });
+
+gulp.task('stage:sass', require('./tasks/stage-sass')(paths));
