@@ -22,3 +22,4 @@ gulp.task('watch:sass', () => {
 });
 
 gulp.task('stage:sass', require('./tasks/stage-sass')(paths));
+gulp.task('stage:js', require('./tasks/stage-js')(paths));
