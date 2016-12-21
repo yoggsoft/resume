@@ -1,29 +1,23 @@
 
-root
-{
+root {
 	display: block;
 }
 
-
-html
-{
+html {
 	size-adjust: 100%;
 	font-size: 100%;
 }
 
-a
-{
+a {
 	text-decoration: none;
 }
 
-i
-{
+i {
 	font-style: normal;
 }
 
-body
-{
-	-webkit-font-smoothing: antialiased;
+body {
+	font-smoothing: antialiased;
 	font-family: $main-font;
 	font-weight: $font-weight;
 	line-height: 1.4;
@@ -44,8 +38,7 @@ body
     }
 }
 
-ul
-{
+ul {
 	list-style-type: none;
 	margin-top: -10px;
 	max-width: 570px;
@@ -53,27 +46,23 @@ ul
 	cursor: default;
 }
 
-.overlay
-{
+.overlay {
 	opacity: 1;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-    width: 100%;
-    height: 100%;
-    z-index: 9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
 }
 
-.wrapper
-{
+.wrapper {
 	height: 100%;
 }
 
-.skill-set
-{
-	li
-	{
+.skill-set {
+	li {
 		font-size: 95%;
 		background-color: black;
 		background-color: rgba(0,0,0,.75);
@@ -94,8 +83,7 @@ ul
 	}
 }
 
-.clearfix:after
-{
+.clearfix:after {
    content: " "; /* Older browser do not support empty content */
    visibility: hidden;
    display: block;
@@ -103,8 +91,7 @@ ul
    clear: both;
 }
 
-.toggleBtn
-{
+.toggleBtn {
 	position: relative;
     display: block;
     color: $secondary-color;
@@ -120,8 +107,7 @@ ul
     }
 }
 
-.me-img
-{
+.me-img {
 	border-radius: 100%;
 	height: 250px;
 	margin: 0 auto;
@@ -129,30 +115,27 @@ ul
 	position: relative;
 	width: 250px;
 	overflow: hidden;
-	img
-	{
+	img {
 		position: relative;
 		width: 100%;
 		height: 100%;
 	}
-	@media #{$media-large-desktop}
-	{
+	@media #{$media-large-desktop} {
 		width: 230px;
-    	height: 230px;
+  	height: 230px;
 	}
-	@media #{$media-tablet}{
+	@media #{$media-tablet} {
 		width: 200px;
-    	height: 200px;
-    	top: 0px;
+  	height: 200px;
+  	top: 0px;
 	}
-	@media #{$media-mobile}{
+	@media #{$media-mobile} {
 		width: 150px;
-    	height: 150px;
+  	height: 150px;
 	}
 }
 
-.left
-{
+.left {
 	background-color: rgba(0,0,0,.025);
 	border-right: 1px solid $border-color;
 	float: right;
@@ -160,16 +143,16 @@ ul
 	min-width: 200px;
 	position: fixed;
 	width: 33.33%;
-    max-width: 550px;
+  max-width: 550px;
 	top: 0px;
-	@media #{$media-tablet}{
+	@media #{$media-tablet} {
 		float: none;
 	    position: relative;
 	    min-width: 100%;
 	    min-height: 30em;
 	    clear: none;
 	}
-	@media #{$media-tablet}{
+	@media #{$media-tablet} {
 		float: none;
 		position: relative;
 		min-width: 100%;
@@ -178,26 +161,24 @@ ul
 	}
 }
 
-.right
-{
+.right {
 	float: right;
 	height: 100%;
 	position: relative;
 	width: 66.66%;
-	@media #{$media-tablet}{
+	@media #{$media-tablet} {
 		float: none;
 	    position: relative;
 	    min-width: 100%;
 	    min-height: 30em;
 	    clear: none;
 	}
-	@media #{$media-mobile}{
+	@media #{$media-mobile} {
 		min-height: 15em;
 	}
 }
 
-.contact-icons
-{
+.contact-icons {
 	position: relative;
 	margin: 0 auto;
 	min-width: 12em;
@@ -205,8 +186,7 @@ ul
 	padding: 20px;
 }
 
-.contact-info
-{
+.contact-info {
 	display: block;
 	padding: 10px;
 	text-align: center;
@@ -218,8 +198,7 @@ ul
 	}
 }
 
-.name-hero
-{
+.name-hero {
 	background: $left-background-color;
 	bottom: 0;
 	height: 290px;
@@ -229,98 +208,79 @@ ul
 	right: 0;
 	top: 0;
 	width: 85%;
-	h1
-	{
+	h1 {
 		font-size: 1.5em;
 		text-align: center;
-		em
-		{
+		em {
 			color: rgba(0,0,0,.3);
 			font-style: normal;
 			font-weight: 700;
 		}
 	}
-	p
-	{
+	p {
 		color: rgba(0,0,0,.5);
 		font-size: .75em;
 		line-height: 1.5;
 		margin: 0 8px 0 0;
 		text-align: center;
 	}
-	.name-text
-	{
+	.name-text {
 		margin: 0 auto;
 		width: 85%;
 	}
 }
 
-.inner
-{
+.inner {
 	margin: 10px auto;
 	max-width: 900px;
 	padding: 3em;
-	h1
-	{
+	h1 {
 		font-size: 1.75em;
 	}
-	p
-	{
+	p {
 		color: $font-color;
-		em
-		{
+		em {
 			color: rgba(0,0,0,.75);
 		}
-		i
-		{
+		i {
 			color: rgba(0,0,0,.75);
 		}
 	}
-	.item
-	{
+	.item {
 		margin: 50px auto;
 	}
-	section
-	{
+	section {
 		margin: 50px auto;
 	}
 }
 
-.outer
-{
+.outer {
 	margin: 0 auto;
 	max-width: 900px;
 	height: 100%;
 	max-height: 900px;
 	padding: 3em;
 	text-align: $outer-text-align;
-	h1
-	{
+	h1 {
 		font-size:1.75em;
 	}
-	p
-	{
+	p {
 		color: $font-color;
-		em
-		{
+		em {
 			color: rgba(0,0,0,.75);
 		}
-		i
-		{
+		i {
 			color: rgba(0,0,0,.75);
 		}
 	}
-	section
-	{
+	section {
 		margin: 100px auto;
 	}
 }
-.iconspace
-{
+.iconspace {
 	 padding:0px 1px;
 }
 
-.tdright
-{
+.tdright {
 	text-align: right;
 }
